@@ -14,3 +14,15 @@
 
 
 ### 2. 分析
+
+data size: 1 TB, 无序, 格式为 (key_size, key, value_size, value)
+
+cpu cores: 8
+
+memery: 4G
+
+HDD: 4T
+
+2.1 pre-handle
+
+split data file  =>  1TB = 8 * 128GB = 8 * 1024 * 128MB
